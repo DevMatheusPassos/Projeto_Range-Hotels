@@ -1,0 +1,87 @@
+@media screen and (max-width: 1104px) {
+    /* Header */
+    .header {
+        padding: .5em;
+    }
+    
+    /* Main */
+    .main__sectionInitial {
+        background: url(../../images/bg_topo_1198x670.jpg);
+        background-position: bottom center;
+        padding: 17em .5em 4em;
+    }
+    .main section.main__sectionIconsAndTexts {
+        padding: 2.4em 3.2em;
+    }
+    .sectionInitial__icon {
+        height: 5em;
+    }
+    .main section.main__sectionTopics {
+        padding: 2.4em .5em;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    /* Main */
+    .main__sectionInitial {
+        background: #521a66 none; 
+        padding: 1em;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    /* Header */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .header__logo {
+        padding: .5em 0;
+    }
+    .header__menu {
+        width: 100%;
+        background-color: #612674;
+    }
+    .menu__list {
+        flex-direction: column;
+        gap: 0;
+        padding: .5em 0;
+        text-align: center;
+    }
+    .menu__link {
+        width: 100%;
+        color: #fff;
+    }
+    .menu__link:hover {
+        background-color: #722c8a;
+    }
+
+    /* Main */
+    .main__sectionInitial {
+        background-color: #fff;
+    }
+    .sectionInitial__icon {
+        display: none;
+    }
+    .sectionInitial__title {
+        color: #612674
+    }
+    .sectionInitial__text {
+        color: #a87bb7;
+    }
+    .sectionInitial__title, .sectionInitial__text {
+        text-shadow: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    /* Main */
+    .main section.main__sectionIconsAndTexts {
+        padding: 2.4em 1.8em;
+    }
+    .main__sectionTopics {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
